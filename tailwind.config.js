@@ -12,7 +12,8 @@ tailwind.config = {
                 brandtext: '#1C1D1D',
                 brandgray: '#707070',
                 branddarkgray: '#1C1D1D',
-                brandgreen: '#5C7962'
+                brandgreen: '#5C7962',
+                brandtextwhite: '#FFFFFA'
             }
         },
     },

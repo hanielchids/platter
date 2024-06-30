@@ -1,25 +1,28 @@
 .custom-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .custom-scrollbar {
-    overflow-y: scroll;
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #231F20; 
-    border-radius: 3px;
-    height: 6px;
-    transition: height 0.2s; 
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #CCCCCC;
-  }
-  
-  .custom-scrollbar:hover::-webkit-scrollbar-thumb {
-    height: 12px;
-  }
-  
+  display: none;
+}
+
+.custom-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #231f20;
+  border-radius: 3px;
+  height: 6px;
+  transition: height 0.2s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #969595;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  height: 12px;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-track {
+  background: #969595;
+}
