@@ -105,8 +105,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }`;
         productCard.innerHTML = `
         <div class="relative">
-          <img src="${product.primaryImage}" alt="${product.name}" class="rounded-lg shadow-sm w-full h-40 sm:h-80 object-cover primary-image">
-          <img src="${product.secondaryImage}" alt="${product.name}" class="rounded-lg shadow-sm w-full h-40 sm:h-80 object-cover secondary-image absolute top-0 left-0 opacity-0 transition-opacity duration-300">
+          <img src="${product.primaryImage}" alt="${product.name}" class="rounded-lg shadow-sm w-full h-44 sm:h-80 object-cover primary-image">
+          <img src="${product.secondaryImage}" alt="${product.name}" class="rounded-lg shadow-sm w-full h-44 sm:h-80 object-cover secondary-image absolute top-0 left-0 opacity-0 transition-opacity duration-300">
           <div class="absolute border-2 border-black top-2 left-2 bg-white text-black font-bebas font-normal text-xs px-2 py-1 rounded-full uppercase">${product.badge}</div>
           ${product.savebadge ? `<div class="absolute border-2 border-black top-2 right-2 bg-brandgreen text-white font-bebas font-normal text-xs px-2 py-1 rounded-full uppercase">${product.savebadge}</div>` : ''}
         </div>
